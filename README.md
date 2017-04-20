@@ -11,7 +11,14 @@ Mongify helps you move your data without worrying about the IDs or foreign IDs. 
 `$ sudo apt-get install rubygems build-essential`
 
 OR
+
 `$ sudo apt-get install rubygems`
 
 OR
+
 `$ sudo apt-get install ruby1.8-dev rubygems1.8`
+
+
+#### Now install Mongify, in terminal, run:
+
+`gem install mongify`
