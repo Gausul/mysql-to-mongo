@@ -22,3 +22,26 @@ OR
 #### Now install Mongify, in terminal, run:
 
 `gem install mongify`
+
+```
+You might have to install active record database gems (you'll know if you get an error message while running mongify command)
+```
+#### create DataBase Config File (database.config)
+
+````
+sql_connection do
+  adapter     "mysql"
+  host        "localhost"
+  username    "root"
+  password    "passw0rd"
+  database    "my_database"
+  batch_size  10000          
+# This is defaulted to 10000 but in case you want to make that smaller (on lower RAM machines)
+end
+````
+````
+mongodb_connection do
+  host        "localhost"
+  database    "my_database"
+end
+`````
