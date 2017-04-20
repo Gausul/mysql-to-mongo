@@ -45,3 +45,19 @@ mongodb_connection do
   database    "my_database"
 end
 `````
+
+``
+You can check your configuration by running
+``
+`mongify check database.config`
+
+##### Generating or creating a translation File
+``
+mongify translation database.config > translation_file.rb
+``
+##### Process File
+```
+mongify process database.config translation_file.rb
+```
+
+###### For More Information Visit Website: http://www.rubydoc.info/gems/mongify/
