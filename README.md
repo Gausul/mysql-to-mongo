@@ -36,7 +36,6 @@ sql_connection do
   password    "passw0rd"
   database    "my_database"
   encoding  "utf8"        
-# This is defaulted to 10000 but in case you want to make that smaller (on lower RAM machines)
 end
 ````
 ````
