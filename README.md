@@ -35,7 +35,7 @@ sql_connection do
   username    "root"
   password    "passw0rd"
   database    "my_database"
-  batch_size  10000          
+  encoding  "utf8"        
 # This is defaulted to 10000 but in case you want to make that smaller (on lower RAM machines)
 end
 ````
